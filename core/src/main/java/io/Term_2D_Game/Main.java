@@ -160,10 +160,10 @@ public class Main extends ApplicationAdapter {
 
     private void drawCenteredText(SpriteBatch batch, String text) {
         OrthographicCamera camera = cameraManager.getCamera();
-        layout.setText(uiFont, text, Color.WHITE, 400f, Align.center, true);
-        float x = camera.position.x - layout.width / 2f;
-        float y = camera.position.y + layout.height / 2f;
+        layout.setText(uiFont, text, Color.WHITE, 720f, Align.center, true);
 
+        float x = camera.position.x - 720f / 2f;
+        float y = camera.position.y + layout.height / 2f;
         uiFont.draw(batch, layout, x, y);
     }
 
