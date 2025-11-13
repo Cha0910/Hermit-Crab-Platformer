@@ -25,6 +25,7 @@ public abstract class BlockObject {
      * @param spriteName JSON에서 가져온 키
      * @param box2dWorld Box2D 월드
      * @param isStatic 고정 블록 여부
+     * @param isSensor 센서 블록 여부
      */
     public BlockObject(float x, float y, String spriteName, World box2dWorld, boolean isStatic, boolean isSensor) {
         this.position = new Vector2(x, y);

@@ -511,7 +511,7 @@ public class Player {
     private void wallJump(){
         /*
         if(isOnWall){ // 제자리 점프 막기
-            return;
+            return;   // 작동은 하지만 로직이 좋지 않은듯
         }
         */
         wallJumpBufferTimer = 0f;

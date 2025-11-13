@@ -21,6 +21,7 @@ public class SignObject extends BlockObject {
      * @param x X 좌표 (픽셀)
      * @param y Y 좌표 (픽셀)
      * @param box2dWorld Box2D 월드
+     * @param message 표지판 메시지
      */
     public SignObject(float x, float y, World box2dWorld ,String message) {
         super(x, y, "sign", box2dWorld, true, true);
